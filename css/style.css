@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #26262c;
+    color: white;
+    font-family: Arial;
+}
+
+h2, h3, h4, h5, h6{
+    margin: 5px 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #26262c;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tux{
+    width: 100px;
+    background-color: brown;
+    border-radius: 100%;
+}
+
+figure{
+    width: 100px;
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: brown;
+    
+}
+
+
+.link a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    padding:5px 30px 5px;
+    text-align: center;
+    
+    
+    
+}
+
+
+.link a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+article{
+    padding: 10px;
+    margin: 20px;
+    background-color:#17171b;
+    border-radius: 5px;
+}
+
+.ler{
+    margin-bottom: 20px;
+}
+
+.ler a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 5px 50px;
+    border-radius: 5px;
+    transition: .5s;
+    
+}
+
+.ler a:hover{
+    background-color: rgb(199, 66, 66);
+    padding: 5px 70px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article{
+    width: 600px;
+}
+
+article h2{
+    margin: 10px 0;
+}
+
+.card{
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 30%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.overflow{
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card img{
+    
+    height: 400px;
+    
+}
+
+aside{
+    padding: 10px;
+    height: auto;
+    max-height: 400px;
+    margin: 20px;
+    width: 200px;
+    background-color: #17171b;
+}
+
+
+
+/* aside nav a:visited{
+    color: rebeccapurple;
+} */
+
+/* aside nav a:active{
+    color:aqua;
+} */
+
+aside nav a:hover{
+    color: rgb(186, 252, 252);
+}
+
+aside nav a{
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 5px 5px;
+    color:aqua;
+}
+
+
