@@ -59,6 +59,23 @@ figure{
     
 }
 
+.menu-fixed{
+    position: fixed;
+    top: 0;
+}
+
+.fixed{
+    margin-top: 50px;
+}
+
+.fixed-aside{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    
+    
+}
+
 
 .link a{
     text-decoration: none;
@@ -155,17 +172,9 @@ aside{
     margin: 20px;
     width: 200px;
     background-color: #17171b;
+    border-radius: 5px;
 }
 
-
-
-/* aside nav a:visited{
-    color: rebeccapurple;
-} */
-
-/* aside nav a:active{
-    color:aqua;
-} */
 
 aside nav a:hover{
     color: rgb(186, 252, 252);
@@ -179,3 +188,35 @@ aside nav a{
 }
 
 
+@media (max-width: 649px){
+    section, aside, article{
+        width: 100%;
+    }
+
+}
+
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 16px;
+  }
+  
+::-webkit-scrollbar-track-piece {
+    background-color: #17171b;
+    border-radius: 3px;
+  }
+  
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #666;
+    border-radius: 3px;
+  }
+  
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: #666;
+    border-radius: 3px;
+  }
